@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.line {
+    background-color: #FFDB63;
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    height: 110px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    list-style: none;
+}
+
+.menu ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu ul li:hover {
+    color: #FFDB63;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.waffles-image {
+    background-image: url('/img/waffles.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.waffles-image h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFDB63;
+    height: 273px;
+}
